@@ -25,4 +25,4 @@
 SELECT tp.toy_id, tp.toy_name
 FROM toy_production AS tp
 JOIN toy_delivery AS td
-    ON tp.toy_id = td.toy_id
+    ON tp.toy_id = td.toy_id;
